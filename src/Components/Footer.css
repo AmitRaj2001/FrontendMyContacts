@@ -1,4 +1,4 @@
-.footer {
+/* .footer {
   background-image: linear-gradient(to right, #fcbf1e, #40d7fd);
   font-family: 'Pacifico', cursive;
     color: #fff;
@@ -14,8 +14,56 @@
     color: #06ff7f;
   }
 
+
   .te{
     color: #fff;
     
-  }
-  
+  } */
+
+.footer {
+  background-image: linear-gradient(to right, #fcbf1e, #40d7fd);
+  color: white;
+  padding: 20px 150px;
+}
+
+.container-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
+  height: 8rem;
+}
+
+.email-section {
+  display: flex;
+  align-items: center;
+}
+
+.email-input {
+  width: 500px;
+  padding: 8px;
+  border: none;
+  border-radius: 5px 0 0 5px;
+}
+
+.subscribe-button {
+  background-color: #f39c12;
+  color: white;
+  border: none;
+  border-radius: 0 5px 5px 0;
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+.social-icons {
+  display: flex;
+  gap: 3rem;
+}
+
+.social-icon {
+  color: white;
+  font-size: 18px;
+  text-decoration: none;
+}

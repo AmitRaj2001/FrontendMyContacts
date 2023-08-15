@@ -1,20 +1,30 @@
 import React, { useState } from 'react';
 import './Footer.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faEnvelope, faFacebook, faTwitter, faInstagram } from '@fortawesome/free-brands-svg-icons';
 
-export default function Footer() {
-  const [time, setTime] = useState(new Date().toLocaleTimeString());
-
-  const intervalId = setInterval(() => {
-    setTime(new Date().toLocaleTimeString());
-  }, 1000);
-
+const Footer = () => {
   return (
-    <div>
-      <footer className="footer fixed-bottom bg-dark">
-        <div className="container">
-          <span className="te">© 2023 Your Contact List , Inc. {time}</span>
+    <footer className="footer">
+      <div className="container-footer">
+        <div className="email-section">
+          <input type="email" placeholder="Enter your email" className="email-input" />
+          <button className="subscribe-button">Subscribe</button>
         </div>
-      </footer>
-    </div>
+        <div className="social-icons">
+          <a href="#" className="social-icon">
+            <FontAwesomeIcon icon={faFacebook} />
+          </a>
+          <a href="#" className="social-icon">
+            <FontAwesomeIcon icon={faTwitter} />
+          </a>
+          <a href="#" className="social-icon">
+            <FontAwesomeIcon icon={faInstagram} />
+          </a>
+        </div>
+      </div>
+    </footer>
   );
-}
+};
+
+export default Footer;
