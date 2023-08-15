@@ -4,6 +4,7 @@
 .navbar {
   background-image: linear-gradient(to right, #40d7fd, #fcbf1e);
   font-family: 'Pacifico', cursive;
+  height: 6rem;
 }
 
 /* Navbar brand text color and font size */

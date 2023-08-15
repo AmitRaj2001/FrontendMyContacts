@@ -23,7 +23,7 @@
 .footer {
   background-image: linear-gradient(to right, #fcbf1e, #40d7fd);
   color: white;
-  padding: 20px 150px;
+  padding: 20px 50px;
 }
 
 .container-footer {
@@ -34,6 +34,7 @@
   margin: 0 auto;
   padding: 0 20px;
   height: 8rem;
+  gap: 4rem;
 }
 
 .email-section {
@@ -66,4 +67,15 @@
   color: white;
   font-size: 18px;
   text-decoration: none;
+}
+
+.about-section {
+  margin-top: 20px;
+  padding-top: 20px;
+  border-top: 1px solid #ddd;
+}
+
+.about-section h3 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
 }

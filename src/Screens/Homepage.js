@@ -129,7 +129,7 @@ export default function Homepage() {
 
 
 
-      <div style={{ paddingBottom: '320px', paddingTop: '200px' }}>
+      <div style={{ paddingBottom: '20px'}}>
         <div className="container form-container card mt-3" style={{ width: '18rem', maxHeight: '380px' }}>
           <form onSubmit={handleAddContact}>
             <div className="mb-3">

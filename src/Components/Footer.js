@@ -22,6 +22,10 @@ const Footer = () => {
             <FontAwesomeIcon icon={faInstagram} />
           </a>
         </div>
+        <div className="about-section">
+          <h3>About Us</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ac dui ac ex gravida sagittis nec ac libero.</p>
+        </div>
       </div>
     </footer>
   );
