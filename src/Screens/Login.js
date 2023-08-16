@@ -52,8 +52,8 @@ export default function Login() {
 
     return (
         <div>
-            <div className="vh-100">
-                <div className="container py-5 h-100">
+            <div className="vh-60">
+                <div className="container py-5 h-60">
                     <div className="row d-flex align-items-center justify-content-center h-100">
                         <div className="col-md-8 col-lg-7 col-xl-6">
                             <img
@@ -128,31 +128,31 @@ export default function Login() {
 
                                 <button
                                     type="submit"
-                                    className="btn btn-primary btn-lg btn-block"
+                                    className="btn btn-outline-secondary btn-lg btn-block"
                                 >
                                     Sign in
                                 </button>
                                 <br />
                                 <br />
 
-                                <div className="btn btn-primary btn-lg btn-block">
+                                <div className="btn btn-outline-secondary btn-lg btn-block">
                                     <Link
                                         to="/signup"
-                                        className="btn btn-primary btn-lg"
+                                        className="btn btn-light"
                                     >
                                         I am a new User
                                     </Link>
                                 </div>
 
                                 <div className="divider d-flex align-items-center my-4">
-                                    <p className="text-center fw-bold mx-3 mb-0 text-muted">
+                                    <p className="text-center fw-bold mx-3 mb-0  align-items-center text-muted">
                                         OR
                                     </p>
                                 </div>
 
                                 <Link
-                                    className="btn btn-primary btn-lg btn-block"
-                                    style={{ backgroundColor: "#3b5998" }}
+                                    className="btn btn-outline-secondary btn-lg btn-block"
+                                    
                                     to="#!"
                                     role="button"
                                 >
@@ -160,8 +160,8 @@ export default function Login() {
                                     Continue with Facebook
                                 </Link>
                                 <Link
-                                    className="btn btn-primary btn-lg btn-block"
-                                    style={{ backgroundColor: "#55acee" }}
+                                    className="btn btn-outline-secondary btn-lg btn-block"
+                                    
                                     to="#!"
                                     role="button"
                                 >

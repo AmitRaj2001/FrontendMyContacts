@@ -1,29 +1,8 @@
-/* .footer {
-  background-image: linear-gradient(to right, #fcbf1e, #40d7fd);
-  font-family: 'Pacifico', cursive;
-    color: #fff;
-    padding: 20px;
-    text-align: center;
-  }
-  
-  .footer a {
-    color: #ff0000;
-  }
-  
-  .footer a:hover {
-    color: #06ff7f;
-  }
-
-
-  .te{
-    color: #fff;
-    
-  } */
-
 .footer {
-  background-image: linear-gradient(to right, #fcbf1e, #40d7fd);
+  background-color: #1a1a1a;
   color: white;
   padding: 20px 50px;
+  margin-top: 60px;
 }
 
 .container-footer {
@@ -50,12 +29,15 @@
 }
 
 .subscribe-button {
-  background-color: #f39c12;
+  background-color: #8e8e8e;
   color: white;
-  border: none;
+  border: white;
   border-radius: 0 5px 5px 0;
   padding: 8px 12px;
   cursor: pointer;
+}
+.subscribe-button:hover{
+  background-color: #a5a5a5;
 }
 
 .social-icons {
@@ -65,8 +47,12 @@
 
 .social-icon {
   color: white;
-  font-size: 18px;
+  font-size: 30px;
   text-decoration: none;
+}
+
+.social-icons :hover{
+  color: rgb(130, 255, 107);
 }
 
 .about-section {

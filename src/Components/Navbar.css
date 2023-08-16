@@ -2,9 +2,9 @@
 
 /* Navbar background */
 .navbar {
-  background-image: linear-gradient(to right, #40d7fd, #fcbf1e);
+  background-color: #071952;
   font-family: 'Pacifico', cursive;
-  height: 6rem;
+  height: 4rem;
 }
 
 /* Navbar brand text color and font size */

@@ -69,13 +69,13 @@ function Navbar() {
                         {!localStorage.getItem("authToken") ? (
                             <div>
                                 <Link
-                                    className="btn bg bg-white mx-1"
+                                    className="btn btn-outline-light mx-1"
                                     to="/login"
                                 >
                                     Login
                                 </Link>
                                 <Link
-                                    className="btn bg bg-white mx-1"
+                                    className="btn btn-outline-light mx-1"
                                     to="/signup"
                                 >
                                     SignUp
@@ -85,7 +85,7 @@ function Navbar() {
                             <div>
                                 <div>
                                     <Link
-                                        className="btn bg bg-white  text-danger mx-1"
+                                        className="btn btn-outline-light text-danger mx-1"
                                         to="/login"
                                         onClick={handleLogout}
                                     >

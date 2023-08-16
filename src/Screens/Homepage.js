@@ -90,16 +90,14 @@ export default function Homepage() {
     return (
         <div>
 
-            <div className="container title">
-                <h1>Your Contact List</h1>
-            </div>
-
             <div
                 id="carouselExampleFade"
                 className="searchdiv"
                 data-bs-ride="carousel"
             >
+                <h1>Your Contact List</h1>
                 <div className="d-flex justify-content-center">
+                
                     <input
                         className="form-control me-2"
                         type="search"
@@ -130,7 +128,7 @@ export default function Homepage() {
             <div style={{ paddingBottom: "20px" }}>
                 <div
                     className="container form-container card mt-3"
-                    style={{ width: "18rem", maxHeight: "380px" }}
+                    style={{ width: "25rem", maxHeight: "380px" }}
                 >
                     <form onSubmit={handleAddContact}>
                         <div className="mb-3">

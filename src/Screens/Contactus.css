@@ -2,10 +2,10 @@
     padding: 60px 0px 20px;
     margin-top: 1px;
     margin-bottom: 1px;
-    background-image: linear-gradient(to bottom, #40d7fd, #fcbf1e);
+    background-image: linear-gradient(to bottom,  #55555596, #ffffff);
     text-align: center;
     color: #fff;
-    height: 63vh;
+    height: 65vh;
   }
   
   .contact h2 {
@@ -33,7 +33,7 @@
   }
   
   .contact button {
-    background-image: linear-gradient(to top, #00ccff, #ffbb00);
+    background-image: linear-gradient(to bottom,  #55555596, #000000);
     color: #fff;
     border: none;
     border-radius: 4px;

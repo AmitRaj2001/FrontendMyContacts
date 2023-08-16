@@ -77,8 +77,8 @@ export default function Signup() {
     return (
         <div>
             <div>
-                <div className="container h-100">
-                    <div className="row d-flex justify-content-center align-items-center h-100">
+                <div className="container h-80">
+                    <div className="row d-flex justify-content-center align-items-center h-80">
                         <div className="col-lg-12 col-xl-11">
                             <div className="card text-black">
                                 <div className="card-body p-md-5">
@@ -223,7 +223,7 @@ export default function Signup() {
                                                 <div className="d-flex justify-content-center mx-4 mb-3 mb-lg-4">
                                                     <button
                                                         type="submit"
-                                                        className="btn btn-primary btn-lg"
+                                                        className="btn btn-outline-secondary btn-lg"
                                                     >
                                                         Register
                                                     </button>
@@ -231,7 +231,7 @@ export default function Signup() {
                                                 <div className="d-flex justify-content-center mx-4 mb-3 mb-lg-4">
                                                     <Link
                                                         to="/login"
-                                                        className="btn btn-primary btn-lg"
+                                                        className="btn btn-outline-secondary btn-lg"
                                                     >
                                                         Already a User
                                                     </Link>
