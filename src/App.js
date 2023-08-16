@@ -4,6 +4,8 @@ import Login from "./Screens/Login";
 import Signup from "./Screens/Signup";
 import Aboutus from "./Screens/Aboutus";
 import Contactus from "./Screens/Contactus";
+import Navbar from "./Components/Navbar";
+import Footer from "./Components/Footer";
 
 // bootstrap
 import "../node_modules/bootstrap-dark-5/dist/css/bootstrap-dark.min.css";
@@ -15,6 +17,7 @@ import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 function App() {
     return (
         <div className="App">
+            <Navbar/>
             <Routes>
                 <Route exact path="/" element={<Homepage />} />
                 <Route exact path="/aboutus" element={<Aboutus />} />
@@ -22,6 +25,7 @@ function App() {
                 <Route exact path="/login" element={<Login />} />
                 <Route exact path="/signup" element={<Signup />} />
             </Routes>
+            <Footer/>
         </div>
     );
 }

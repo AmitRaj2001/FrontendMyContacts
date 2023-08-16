@@ -26,7 +26,7 @@
 
 /* Active link color and background color */
 .nav-link.active {
-  color: #fff;
+  color: #ff0000;
   background-color: #1a1a1a;
   border-bottom: 3px solid #1a1a1a;
 }

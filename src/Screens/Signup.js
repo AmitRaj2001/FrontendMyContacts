@@ -1,12 +1,9 @@
 import React, { useState } from "react";
 import { useNavigate, Link } from "react-router-dom";
-import Navbar from "../Components/Navbar";
-import Footer from "../Components/Footer";
-import { Nav } from "react-bootstrap";
 
 export default function Signup() {
     // const [location, setlocation] = useState("");
-    const [address, setAddress] = useState("");
+    // const [address, setAddress] = useState("");
 
     const [repeatPassword, setRepeatPassword] = useState("");
     const [agreeTerms, setAgreeTerms] = useState(false);
@@ -79,7 +76,6 @@ export default function Signup() {
 
     return (
         <div>
-            <Navbar />
             <div>
                 <div className="container h-100">
                     <div className="row d-flex justify-content-center align-items-center h-100">
@@ -128,7 +124,7 @@ export default function Signup() {
                                                 </div>
 
                                                 <div className="d-flex flex-row align-items-center mb-4">
-                                                    <i className="fas fa-envelope fa-lg me-3 fa-fw"></i>
+                                                    <i className="fas fa-envelope fa-lg me-1 fa-fw"></i>
                                                     <div className="form-outline flex-fill mb-0">
                                                         <input
                                                             type="email"
@@ -149,8 +145,8 @@ export default function Signup() {
                                                     </div>
                                                 </div>
 
-                                                <div className="d-flex flex-row align-items-center mb-4">
-                                                    <i className="fas fa-lock fa-lg me-3 fa-fw"></i>
+                                                <div className="d-flex flex-row align-items-center mb-2">
+                                                    <i className="fas fa-lock fa-lg me-2 fa-fw"></i>
                                                     <div className="form-outline flex-fill mb-0">
                                                         <input
                                                             type="password"
@@ -171,8 +167,8 @@ export default function Signup() {
                                                     </div>
                                                 </div>
 
-                                                <div className="d-flex flex-row align-items-center mb-4">
-                                                    <i className="fas fa-key fa-lg me-3 fa-fw"></i>
+                                                <div className="d-flex flex-row align-items-center mb-2">
+                                                    <i className="fas fa-key fa-lg me-2 fa-fw"></i>
                                                     <div className="form-outline flex-fill mb-0">
                                                         <input
                                                             type="password"
@@ -200,7 +196,7 @@ export default function Signup() {
 
                                                 <div className="m-3"></div>
 
-                                                <div className="form-check d-flex justify-content-center mb-5">
+                                                <div className="form-check d-flex justify-content-center mb-2">
                                                     <input
                                                         className="form-check-input me-2"
                                                         type="checkbox"
@@ -256,7 +252,6 @@ export default function Signup() {
                     </div>
                 </div>
             </div>
-            <Footer />
         </div>
     );
 }

@@ -1,7 +1,5 @@
 import React, { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
-import Footer from "../Components/Footer";
-import Navbar from "../Components/Navbar";
 
 export default function Login() {
     const [errorMessage, setErrorMessage] = useState("");
@@ -54,7 +52,6 @@ export default function Login() {
 
     return (
         <div>
-            <Navbar />
             <div className="vh-100">
                 <div className="container py-5 h-100">
                     <div className="row d-flex align-items-center justify-content-center h-100">
@@ -176,7 +173,7 @@ export default function Login() {
                     </div>
                 </div>
             </div>
-            <Footer />
+
         </div>
     );
 }

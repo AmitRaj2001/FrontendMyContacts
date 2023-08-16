@@ -89,7 +89,7 @@ export default function Homepage() {
 
     return (
         <div>
-            <Navbar />
+
             <div className="container title">
                 <h1>Your Contact List</h1>
             </div>
@@ -181,8 +181,6 @@ export default function Homepage() {
                     </form>
                 </div>
             </div>
-
-            <Footer />
         </div>
     );
 }
