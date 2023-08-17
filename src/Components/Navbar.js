@@ -63,6 +63,11 @@ function Navbar() {
                                     Contact Us
                                 </Link>
                             </li>
+                            <li className="nav-item">
+                                <Link className="nav-link" to="/chat">
+                                    Chat With Us
+                                </Link>
+                            </li>
                         </ul>
 
                         {/* // Agar Login ni hai to signup or login oprion dikhega warna  log out dikhao */}
