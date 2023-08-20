@@ -20,7 +20,8 @@ export default function Homepage() {
             const userEmail = localStorage.getItem("userEmail");
 
             const response = await fetch(
-                "https://mycontactbackend.onrender.com/api/mycurrentData",
+                //"https://mycontactbackend.onrender.com/api/mycurrentData",
+                "http://localhost:8000/api/mycurrentData",
                 {
                     method: "POST",
                     headers: {
@@ -57,7 +58,8 @@ export default function Homepage() {
         let userEmail = localStorage.getItem("userEmail");
         try {
             const response = await fetch(
-                "https://mycontactbackend.onrender.com/api/addContact",
+                //"https://mycontactbackend.onrender.com/api/addContact",
+                "http://localhost:8000/api/addContact",
                 {
                     method: "POST",
                     headers: {
