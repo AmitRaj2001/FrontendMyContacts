@@ -143,7 +143,7 @@ function Chat() {
                     h="100vh"
                     justifyContent={"center"}
                 >
-                    <Button colorScheme={"purple"} onClick={loginHandler}>
+                    <Button colorScheme={"gray"} onClick={loginHandler}>
                         Login with Google
                     </Button>
                 </VStack>
