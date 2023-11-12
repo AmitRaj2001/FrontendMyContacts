@@ -46,8 +46,8 @@ export default function Signup() {
         }
 
         const response = await fetch(
-            //"https://mycontactbackend.onrender.com/api/createuser",
-            "http://localhost:8000/api/createuser",
+            "https://mycontactbackend.onrender.com/api/createuser",
+            //"http://localhost:8000/api/createuser",
             {
                 method: "POST",
                 headers: {
